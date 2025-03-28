@@ -1,40 +1,65 @@
 import React from 'react';
 import AnimatedSection from '../components/AnimatedSection';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Linkedin, Mail } from 'lucide-react';
+import GitHub from 'lucide-react';
+
 import type { TeamMember } from '../types';
 
 const Team: React.FC = () => {
   const teamMembers: TeamMember[] = [
     {
-      name: 'Arjun Sharma',
-      role: 'Event Lead',
-      image: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=400',
+      name: 'Samyak Mishra',
+      role: 'Technical Lead',
+      image: 'https://i.postimg.cc/76dZYhtH/Samyak.jpg',
+      github: 'https://github.com/SamyakMishra072',
+      linkedin: 'https://www.linkedin.com/in/samyak072/',
+      email: 'sm2.cse.tmsl@ticollege.org'
     },
     {
-      name: 'Priya Patel',
-      role: 'Technical Head',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400',
+      name: 'Suprakash Roy',
+      role: 'Technical Lead Associate',
+      image: 'https://i.postimg.cc/KvFy7tTX/Suprakash-1.jpg',
+      github: 'https://github.com/SuprakashRoy04',
+      linkedin: 'https://www.linkedin.com/in/suprakash-roy-28361b247/',
+      email: 'suprakash.05roy@gmail.com'
     },
     {
-      name: 'Rahul Kumar',
-      role: 'Marketing Lead',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400',
+      name: 'Rhitwika Poddar',
+      role: 'Design Lead Associate',
+      image: 'https://i.postimg.cc/rmkzkvvz/Rhitwika.jpg',
+      github: 'https://github.com',
+      linkedin: 'https://linkedin.com',
+      email: 'rhitwikapoddar@gmail.com'
     },
     {
-      name: 'Neha Singh',
-      role: 'Operations Manager',
-      image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400',
+      name: 'Suhani Kundu',
+      role: 'PR Lead Associate',
+      image: 'https://i.postimg.cc/PrxJTbFb/Suhani.jpg',
+      github: 'https://github.com',
+      linkedin: 'https://www.linkedin.com/in/suhani-kundu-110104267/',
+      email: 'suhanikundu.2004@gmail.com'
     },
     {
-      name: 'Aditya Verma',
-      role: 'Sponsorship Head',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400',
+      name: 'Pragya Saha',
+      role: 'Marketing Lead Associate',
+      image: 'https://i.postimg.cc/MKtgyNxR/Pragya-1.jpg',
+      linkedin: 'https://www.linkedin.com',
+      email: 'sasha156julla@gmail.com'
     },
     {
-      name: 'Zara Ahmed',
-      role: 'Design Lead',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
+      name: 'Arghya Dandopat',
+      role: 'Social Media Lead Associate',
+      image: 'https://i.postimg.cc/SQGYyxQ4/Arghya.jpg',
+      linkedin: 'https://www.linkedin.com',
+      email: 'dandapatarghya71@gmail.com'
     },
+    {
+      name: 'Arnab Singha',
+      role: 'Event Lead Associate',
+      image: 'https://i.postimg.cc/6qz8zYbq/Arnab.webp',
+      linkedin: 'https://www.linkedin.com',
+      email: 'singhaarnab007@gmail.com'
+    }
   ];
 
   return (

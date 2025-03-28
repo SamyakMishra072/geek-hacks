@@ -1,7 +1,8 @@
 import React from 'react';
 import AnimatedSection from '../components/AnimatedSection';
 import { Linkedin, Mail } from 'lucide-react';
-import GitHub from 'lucide-react';
+import { Github } from 'lucide-react';
+
 
 import type { TeamMember } from '../types';
 

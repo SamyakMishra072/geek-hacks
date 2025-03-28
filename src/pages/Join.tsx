@@ -38,7 +38,7 @@ const Join: React.FC = () => {
               </li>
             </ul>
             <a
-              href="https://forms.google.com"
+              href="https://forms.gle/4QzBPC6YeErJK4eY8"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-[#d00b02] text-white rounded-lg hover:bg-[#661511] transition-colors"

@@ -34,19 +34,11 @@ const Home: React.FC = () => {
                 <Calendar className="h-6 w-6" />
                 <span>5th & 6th April 2025</span>
               </div>
-              <div className="hidden md:block text-gray-500">|</div>
-              <div className="flex items-center space-x-2 text-[#d00b02]">
-                <Users className="h-6 w-6" />
-                <span>500+ Participants</span>
-              </div>
-              <div className="hidden md:block text-gray-500">|</div>
-              <div className="flex items-center space-x-2 text-[#d00b02]">
-                <Trophy className="h-6 w-6" />
-                <span>₹1,00,000 Prize Pool</span>
-              </div>
+              <div className="hidden md:block text-gray-500"></div>
+              <div className="hidden md:block text-gray-500"></div>
             </div>
             <a
-              href="https://forms.google.com"
+              href="https://forms.gle/4QzBPC6YeErJK4eY8"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-3 bg-[#d00b02] text-white rounded-full hover:bg-[#661511] transition-colors"

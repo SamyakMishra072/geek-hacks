@@ -72,22 +72,6 @@ const About: React.FC = () => {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection className="text-center">
-          <h2 className="text-3xl font-bold mb-8">Our Impact</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
-              { number: '500+', label: 'Participants' },
-              { number: '48', label: 'Hours of Coding' },
-              { number: '50+', label: 'Mentors' },
-              { number: '100k', label: 'Prize Pool' },
-            ].map((stat, index) => (
-              <div key={index} className="p-6 bg-[#151515] rounded-lg">
-                <div className="text-3xl font-bold text-[#d00b02] mb-2">{stat.number}</div>
-                <div className="text-gray-400">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </AnimatedSection>
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ const Join: React.FC = () => {
               <li className="flex items-start">
                 <Trophy className="h-6 w-6 text-[#d00b02] mr-3 mt-1" />
                 <span className="text-gray-400">
-                  Compete for prizes worth ₹1,00,000
+                  Compete for prizes.
                 </span>
               </li>
               <li className="flex items-start">
@@ -82,22 +82,6 @@ const Join: React.FC = () => {
           </AnimatedSection>
         </div>
 
-        <AnimatedSection className="text-center bg-[#151515] p-12 rounded-lg border border-[#661511]">
-          <h2 className="text-3xl font-bold mb-6">Become a Mentor</h2>
-          <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-            Share your expertise and guide the next generation of developers. We're looking
-            for industry professionals to mentor our participants.
-          </p>
-          <a
-            href="https://forms.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-8 py-3 bg-transparent border-2 border-[#d00b02] text-[#d00b02] rounded-lg hover:bg-[#d00b02] hover:text-white transition-colors"
-          >
-            Apply as Mentor
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </a>
-        </AnimatedSection>
       </div>
     </div>
   );

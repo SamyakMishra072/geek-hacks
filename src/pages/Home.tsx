@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Calendar, Users, Trophy } from 'lucide-react';
+import { ArrowRight, Calendar } from 'lucide-react';
 import AnimatedSection from '../components/AnimatedSection';
 
 const Home: React.FC = () => {
@@ -37,15 +37,25 @@ const Home: React.FC = () => {
               <div className="hidden md:block text-gray-500"></div>
               <div className="hidden md:block text-gray-500"></div>
             </div>
-            <a
-              href="https://forms.gle/4QzBPC6YeErJK4eY8"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-8 py-3 bg-[#d00b02] text-white rounded-full hover:bg-[#661511] transition-colors"
-            >
-              Register Now
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </a>
+            <div className="flex flex-col items-center gap-4">
+              <a
+                href="https://forms.gle/4QzBPC6YeErJK4eY8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-8 py-3 bg-[#d00b02] text-white rounded-full hover:bg-[#661511] transition-colors"
+              >
+                Register Now
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
+              <a
+                href="https://docs.google.com/document/d/16qCZAAWwbpbsX9t0-MV3rNFO4ytdPj5B3T5-yEMAWQU/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-8 py-3 border border-[#d00b02] text-[#d00b02] rounded-full hover:bg-[#d00b02] hover:text-white transition-colors"
+              >
+                View Problem Statements
+              </a>
+            </div>
           </motion.div>
         </div>
       </section>

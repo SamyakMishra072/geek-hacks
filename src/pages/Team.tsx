@@ -2,8 +2,6 @@ import React from 'react';
 import AnimatedSection from '../components/AnimatedSection';
 import { Linkedin, Mail } from 'lucide-react';
 import { Github } from 'lucide-react';
-
-
 import type { TeamMember } from '../types';
 
 const Team: React.FC = () => {
@@ -91,24 +89,36 @@ const Team: React.FC = () => {
                 <h3 className="text-xl font-bold mb-1">{member.name}</h3>
                 <p className="text-[#d00b02] mb-4">{member.role}</p>
                 <div className="flex space-x-4">
-                  <a
-                    href="#"
-                    className="text-gray-400 hover:text-[#d00b02] transition-colors"
-                  >
-                    <Github className="h-5 w-5" />
-                  </a>
-                  <a
-                    href="#"
-                    className="text-gray-400 hover:text-[#d00b02] transition-colors"
-                  >
-                    <Linkedin className="h-5 w-5" />
-                  </a>
-                  <a
-                    href="#"
-                    className="text-gray-400 hover:text-[#d00b02] transition-colors"
-                  >
-                    <Mail className="h-5 w-5" />
-                  </a>
+                  {member.github && (
+                    <a
+                      href={member.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-[#d00b02] transition-colors"
+                    >
+                      <Github className="h-5 w-5" />
+                    </a>
+                  )}
+                  {member.linkedin && (
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-[#d00b02] transition-colors"
+                    >
+                      <Linkedin className="h-5 w-5" />
+                    </a>
+                  )}
+                  {member.email && (
+                    <a
+                      href={`mailto:${member.email}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-[#d00b02] transition-colors"
+                    >
+                      <Mail className="h-5 w-5" />
+                    </a>
+                  )}
                 </div>
               </div>
             </AnimatedSection>

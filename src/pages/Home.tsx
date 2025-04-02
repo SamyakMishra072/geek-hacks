@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Calendar } from 'lucide-react';
 import AnimatedSection from '../components/AnimatedSection';
 
-const Home: React.FC = () => {
+const Hero: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
@@ -32,7 +32,7 @@ const Home: React.FC = () => {
             <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-12">
               <div className="flex items-center space-x-2 text-[#d00b02]">
                 <Calendar className="h-6 w-6" />
-                <span>5th & 6th April 2025</span>
+                <span>5th &amp; 6th April 2025</span>
               </div>
               <div className="hidden md:block text-gray-500"></div>
               <div className="hidden md:block text-gray-500"></div>
@@ -54,6 +54,16 @@ const Home: React.FC = () => {
                 className="inline-flex items-center px-8 py-3 border border-[#d00b02] text-[#d00b02] rounded-full hover:bg-[#d00b02] hover:text-white transition-colors"
               >
                 View Problem Statements
+              </a>
+              {/* New Button Added */}
+              <a
+                href="https://drive.google.com/file/d/1LaTFRlJra9faxKtPE8K0JpYodcrCPiu4/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-8 py-3 bg-[#1A73E8] text-white rounded-full hover:bg-[#135ABD] transition-colors"
+              >
+                View geekHacks 2025 Brochure
+                <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </div>
           </motion.div>
@@ -103,4 +113,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Hero;

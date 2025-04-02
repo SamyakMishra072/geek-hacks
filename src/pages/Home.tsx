@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#d00b02] to-[#000000] text-white rounded-full hover:opacity-90 transition-colors"
               >
-                View geekHacks 2025 Brochure
+                View geekHacks 2025 Rulebook
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </div>

@@ -55,12 +55,12 @@ const Hero: React.FC = () => {
               >
                 View Problem Statements
               </a>
-              {/* New Button Added */}
+              {/* New Button with Red-Black Background */}
               <a
                 href="https://drive.google.com/file/d/1LaTFRlJra9faxKtPE8K0JpYodcrCPiu4/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-8 py-3 bg-[#1A73E8] text-white rounded-full hover:bg-[#135ABD] transition-colors"
+                className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#d00b02] to-[#000000] text-white rounded-full hover:opacity-90 transition-colors"
               >
                 View geekHacks 2025 Brochure
                 <ArrowRight className="ml-2 h-5 w-5" />

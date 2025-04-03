@@ -46,13 +46,6 @@ const Team: React.FC = () => {
       email: 'sasha156julla@gmail.com'
     },
     {
-      name: 'Arghya Dandopat',
-      role: 'Social Media Lead Associate',
-      image: 'https://i.postimg.cc/SQGYyxQ4/Arghya.jpg',
-      linkedin: 'https://www.linkedin.com',
-      email: 'dandapatarghya71@gmail.com'
-    },
-    {
       name: 'Arnab Singha',
       role: 'Event Lead Associate',
       image: 'https://i.postimg.cc/6qz8zYbq/Arnab.webp',
